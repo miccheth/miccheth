@@ -1,16 +1,42 @@
-### Hi there 👋
+<h2 align="center">Me</h2>
 
-<!--
-**micchf/micchf** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```python
+from typing import Tuple, List, Dict
 
-Here are some ideas to get you started:
+class micch:
+    pass
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class Attributes(micch):
+    @property
+    def contact(self) -> Tuple[str, str, str]:
+        email    = "pm@micch.dev"
+	    
+	    return email
+
+    @property
+    def life(self) -> Tuple[List[str], int]:
+        langs = ['Italian', 'English']
+        age   = 21
+		
+        return langs, age
+	
+    @property
+    def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str], Dict[str]]:
+        langs = {
+            'expert'      : none,
+            'intermediate': ['python', 'java'],
+            'learning'    : ['c', 'c++', 'go', 'julia', 'rust']
+        }
+        specialities  = none
+        ide           = ['vscode', 'pycharm-community', 'idea-community']
+        pc            = {
+            'Windows': {
+                'custom': {
+                    'processor': 'I5 7500 | 4 cores :(',
+                    'ram'      : '16gb',
+                    'gpu'      : 'GTX 1050 ti'
+                }
+            }
+        }
+
+	return langs, specialities, ide, pc
