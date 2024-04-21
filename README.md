@@ -14,11 +14,12 @@ class Attributes(micch):
 	    return email
 
     @property
-    def life(self) -> Tuple[List[str], int]:
+    def life(self) -> Tuple[List[str], List[str], int]:
         langs = ['Italian', 'English']
+        passions = ['science', 'computer-science', 'tech', 'sport']
         age   = 21
 		
-        return langs, age
+        return langs, passions, age
 	
     @property
     def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str], Dict[str]]:
