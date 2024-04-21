@@ -9,9 +9,9 @@ class micch:
 class Attributes(micch):
     @property
     def contact(self) -> Tuple[str, str, str]:
-        email    = "pm@micch.dev"
+        email = "pm@micch.dev"
 	    
-	    return email
+        return email
 
     @property
     def life(self) -> Tuple[List[str], List[str], int]:
