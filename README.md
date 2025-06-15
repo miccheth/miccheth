@@ -17,7 +17,7 @@ class Attributes(micch):
     def life(self) -> Tuple[List[str], List[str], int]:
         langs = ['Italian', 'English']
         passions = ['science', 'computer-science', 'tech', 'sport']
-        age   = 21
+        age   = 22
 		
         return langs, passions, age
 	
